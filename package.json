@@ -1,0 +1,15 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Maintainability](https://api.codeclimate.com/v1/badges/059acee4b6edfdb33138/maintainability)](https://codeclimate.com/github/UlianaIvanova/frontend-project-44/maintainability)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
+}
