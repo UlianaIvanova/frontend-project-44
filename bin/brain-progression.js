@@ -5,7 +5,7 @@ const description = 'What number is missing in the progression?'
 
 const task = () => {
     const arrayLength = Math.floor(Math.random() * 5) + 5;
-    const progressDelta = Math.round(Math.random() * 10);
+    const progressDelta = Math.round(Math.random() * 100);
     const firstNumber = Math.round(Math.random() * 100);
     const progression = [];
     progression.push(firstNumber);
@@ -20,3 +20,4 @@ const task = () => {
 };
 
 gameBody(description, task);
+
