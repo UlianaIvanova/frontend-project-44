@@ -21,4 +21,5 @@ const task = () => {
     return [`${num1} ${num2}`, answer];
 };
 
-gameBody(description, task);     
+gameBody(description, task);  
+   
