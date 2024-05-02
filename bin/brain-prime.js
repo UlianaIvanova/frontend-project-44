@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import gameBody from '../src/gameBody.js';
 
-const description = 'Answer "yes" if given number is prime. Otherwise answer "no".'; 
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const task = () => {
   const num = Math.round(Math.random() * 50);
@@ -15,6 +15,7 @@ const task = () => {
       return [num, 'no'];
     }
   }
+
   return [num, 'yes'];
 };
 
