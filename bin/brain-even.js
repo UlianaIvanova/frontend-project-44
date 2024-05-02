@@ -3,11 +3,11 @@
 // import greeting from '../src/cli.js';
 import gameBody from '../src/gameBody.js';
 
-//  const userName = greeting();
+// const userName = greeting();
 
- const description = 'Answer "yes" if the number is even, otherwise answer "no".';
+const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 
- const task = () => {
+const task = () => {
     const q = Math.round(Math.random() * 100);
     let a = '';
     if (q % 2 === 0) {
@@ -17,6 +17,6 @@ import gameBody from '../src/gameBody.js';
     }
 
     return [q, a];
- };
+};
 
- gameBody(description, task);
+gameBody(description, task);
