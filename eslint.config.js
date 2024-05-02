@@ -1,7 +1,9 @@
-import globals from 'globals';
-import pluginJs from '@eslint/js';
+// Нет необходимости импортировать глобальные переменные
+const languageOptions = { globals: { node: true } };
 
-export default [
-  { languageOptions: { globals: globals.node } },
-  pluginJs.configs.recommended,
-];
+// Используйте настроенные правила плагина ESLint
+const eslintConfig = {
+  extends: ['plugin:@eslint/recommended'],
+};
+
+export default [languageOptions, eslintConfig];
