@@ -16,4 +16,4 @@ const task = () => {
   return [num, 'yes'];
 };
 
-export{description,task};
+export { description, task };

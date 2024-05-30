@@ -12,4 +12,4 @@ const task = () => {
   return [q, a];
 };
 
-export {description, task};
+export { description, task };

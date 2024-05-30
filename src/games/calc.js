@@ -23,4 +23,4 @@ const task = () => {
 
   return [`${operand1} ${operator[indexOper]} ${operand2}`, answer];
 };
-export{description, task};
+export { description, task };

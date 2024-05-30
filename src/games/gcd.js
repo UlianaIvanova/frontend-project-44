@@ -18,4 +18,4 @@ const task = () => {
   return [`${num1} ${num2}`, answer];
 };
 
-export{description,task};
+export { description, task };

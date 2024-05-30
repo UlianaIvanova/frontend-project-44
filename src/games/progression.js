@@ -16,4 +16,4 @@ const task = () => {
   return [progression.join(' '), answer];
 };
 
-export {description, task};
+export { description, task };
